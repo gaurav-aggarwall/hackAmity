@@ -1,0 +1,1 @@
+const model=await tf.loadModel('../../bts_trial/model.json');
