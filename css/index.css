@@ -23,7 +23,7 @@
 }
 
 body {
-	background: url('../red-blur.jpg') no-repeat center center fixed;
+	background: url('../img/red-blur.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -43,12 +43,6 @@ form[role=login] {
 	-webkit-border-radius: 10px;
 }
 
-form[role=login] img {
-	display: block;
-	margin: 0 auto;
-	margin-bottom: 35px;
-}
-
 form[role=login] input,
 form[role=login] button {
 	font-size: 18px;
@@ -66,6 +60,15 @@ form[role=login] > div {
 }
 .form-links a {
 	color: #fff;
+}
+
+#sign-in-btn>a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#sign-in-btn>a:hover{
+	cursor: pointer;
 }
 
 form>h2{

@@ -11,7 +11,7 @@ function renderAnimations(contatinerId, animAsset, isLoop) {
 }
 
 function init(){
-    renderAnimations('chat-anim-div','../../assets/animations/chat_anim.json',true);
+    renderAnimations('chat-anim-div','../assets/animations/chat_anim.json',true);
 }
 
 init();

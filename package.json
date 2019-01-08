@@ -11,5 +11,8 @@
   "dependencies": {
     "bodymovin": "^4.13.0",
     "bootstrap": "^4.2.1"
+  },
+  "devDependencies": {
+    "firebase": "^5.7.2"
   }
 }

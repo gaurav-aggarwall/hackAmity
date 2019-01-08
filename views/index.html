@@ -15,14 +15,13 @@
             <div class="col-md-4">
                 <section class="login-form py-5">
                     <form method="post" action="#" role="login">
-                        <!-- <img src="http://i.imgur.com/RcmcLv4.png" class="img-responsive" alt="" /> -->
                         <h2>RedRay</h2>
-                        <input type="email" name="email" placeholder="Email" required class="form-control input-lg" value="joestudent@gmail.com" />
+                        <input type="email" name="email" placeholder="Email" id='email' required class="form-control input-lg"/>
                         <input type="password" class="form-control input-lg" id="password" placeholder="Password" required="" />
                         <div class="pwstrength_viewport_progress"></div>
-                        <button type="submit" name="go" class="btn btn-lg btn-primary btn-block">Sign in</button>
+                        <button type="submit" name="go" class="btn btn-lg btn-primary btn-block" id='sign-in-btn'><a href="main.html">Sign in</a></button>
                         <div>
-                            <a href="#">Create account</a> or <a href="#">reset password</a>
+                            <a href="#">Create account</a>
                         </div>
                     </form>
                     
@@ -35,5 +34,7 @@
         </div>
     </div>
     
+    <script src="https://www.gstatic.com/firebasejs/5.7.2/firebase.js"></script>
+    <script src="../scripts/index.js"></script>
 </body>
 </html>
