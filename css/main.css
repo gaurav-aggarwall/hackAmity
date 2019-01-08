@@ -2,9 +2,12 @@ body{
     overflow-y: hidden;
 }
 
-#links{
-    background-image: url("../img/map-bg.jpg");
+#main{
+    background-image: url("../img/main-bg.jpg");
     background-attachment: fixed; 
+}
+
+#links{
     padding-bottom: 40px;
     width: 80%;
     margin:0 auto;
@@ -33,6 +36,8 @@ body{
 }
 
 .hovereffect img {
+    border: 2px solid darkslategray;
+    /* border-radius: 50%; */
     height: 290px;
     width: 100%;
     display:block;

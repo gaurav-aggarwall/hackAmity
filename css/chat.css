@@ -1,0 +1,25 @@
+.chat-bot-page{
+    width: 80%;
+    margin: auto;
+    height: 80%;
+}
+
+#chat-anim-div{
+    height: 400px;
+    margin-top: 8%;
+}
+
+#chat-area{
+    height: 400px;
+    margin-top: 5%;
+}
+
+.floating-div{
+    position: absolute;
+    z-index: 100;
+    background-color: darkslategray;
+    height: 25px;
+    width: 346px;
+    top:82px;
+    left:17px;
+}

@@ -1,0 +1,35 @@
+/* .navbar{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}*/
+
+
+.navbar-brand{
+    font-size: 36px;
+    margin: 0px;
+    margin-left: 0px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 5px;
+    /* font-family: 'Courier New', Courier, monospace'; */
+}
+/*
+.nav-item:first-child{
+    font-size: 38px;
+    margin-left: 40px;
+}
+.nav-item:nth-child(2){
+    font-size: 38px;
+    margin-left: 600px;
+    padding-top: 20px;
+}
+.nav-item:nth-child(3){
+    font-size: 38px;
+    padding-top: 20px;
+     /* margin-left: 450px;  */
+}
+/* .nav-item:nth-child(2):hover{
+    font-weight: bold;
+    text-decoration: underline;
+}  */

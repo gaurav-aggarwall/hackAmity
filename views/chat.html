@@ -7,38 +7,41 @@
     <title>Red Ray</title>
     <script src="../node_modules/bodymovin/build/player/bodymovin.min.js"></script>
     <link rel="stylesheet" href="../node_modules//bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/chat.css">
+    <link rel="stylesheet" href="../css/nav.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">ChatBot</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">MapBox</a>
-                </li>
-            </ul>
-        </div>
-        <div class="mx-auto order-0">
-            <a class="navbar-brand mx-auto" href="#">Red Ray</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Register</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
 
-    <div id='chat-anim-div' style="width: 15%;">
+    <!-- NAVBAR  -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="navbar-collapse collapse w-100 order-0 order-md-0 dual-collapse2">
+                <a class="navbar-brand mx-auto" href="main.html">RED RAY</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse w-200 order-3 dual-collapse2">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Account</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    <div class="row chat-bot-page">
+        <div class="col-6"  id='chat-anim-div'>
+        </div>
+        <div class="col-6" id="chat-area">
+            <div class="floating-div"></div>
+            <iframe
+                allow="microphone;"
+                width="350"
+                height="430"
+                src="https://console.dialogflow.com/api-client/demo/embedded/85eba6b9-ad88-4274-afb7-ebffaf56813a">
+            </iframe>
+        </div>
         
     </div>
 
