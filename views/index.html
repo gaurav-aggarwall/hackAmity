@@ -6,37 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Red Ray</title>
     <link rel="stylesheet" href="../node_modules//bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">ChatBot</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">MapBox</a>
-                </li>
-            </ul>
+    <div class="container">
+        <div class="row" id="pwd-container">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <section class="login-form py-5">
+                    <form method="post" action="#" role="login">
+                        <!-- <img src="http://i.imgur.com/RcmcLv4.png" class="img-responsive" alt="" /> -->
+                        <h2>RedRay</h2>
+                        <input type="email" name="email" placeholder="Email" required class="form-control input-lg" value="joestudent@gmail.com" />
+                        <input type="password" class="form-control input-lg" id="password" placeholder="Password" required="" />
+                        <div class="pwstrength_viewport_progress"></div>
+                        <button type="submit" name="go" class="btn btn-lg btn-primary btn-block">Sign in</button>
+                        <div>
+                            <a href="#">Create account</a> or <a href="#">reset password</a>
+                        </div>
+                    </form>
+                    
+                    <div class="form-links">
+                        <p>&copy;2018 RedRay</p>
+                    </div>
+                </section>  
+            </div>
+            <div class="col-md-4"></div>
         </div>
-        <div class="mx-auto order-0">
-            <a class="navbar-brand mx-auto" href="#">Red Ray</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Register</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <script src="../scripts/index.js"></script>    
+    </div>
+    
 </body>
 </html>
