@@ -1,15 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Red Ray</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.14.1/dist/tf.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.1.1/dist/ml5.min.js"></script>
 </head>
-<body>
-    
 
+<body>
+
+    <h1>Image classification using MobileNet</h1>
+    <p>The MobileNet model labeled this as
+        <span id="result">...</span> with a confidence of
+        <span id="probability">...</span></p>
+    <input type="file" onchange="readFile(this)">
+    <img src='#' crossorigin="anonymous" id="image" width="400">
+
+    <!-- <div>BTS here...</div>
+    <section class='title-area'>
+        <h1>TensorFlow.js: Using a pretrained MobileNet</h1>
+    </section>
+
+    <section>
+        <p class='section-head'>Description</p>
+        <p>
+            This demo uses the pretrained MobileNet_25_224 model from Keras which you can find
+            <a href="https://github.com/fchollet/deep-learning-models/releases/download/v0.6/mobilenet_2_5_224_tf.h5">here</a>.
+
+            It is not trained to recognize human faces. For best performance, upload images of objects
+            like piano, coffee mugs, bottles, etc. You can see all the objects types it has been trained to recognize
+            in <a href="https://github.com/tensorflow/tfjs-examples/blob/master/mobilenet/imagenet_classes.js">imagenet_classes.js</a>.
+        </p>
+    </section>
+
+    <section>
+        <p class='section-head'>Status</p>
+        <div id="status"></div>
+    </section>
+
+    <section>
+        <p class='section-head'>Model Output</p>
+
+        <div id="file-container" style="display: none">
+            Upload an image: <input type="file" id="files" name="files[]" multiple />
+        </div>
+
+        <div id="predictions"></div>
+
+        <img style="display: none" id="cat" src="../assets/cat.jpg" width=224 height=224 />
+    </section>-->
     <script src="../scripts/bts.js"></script>
 </body>
+
 </html>

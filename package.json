@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@tensorflow/tfjs": "^0.14.1",
     "bodymovin": "^4.13.0",
     "bootstrap": "^4.2.1"
   },
