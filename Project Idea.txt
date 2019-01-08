@@ -1,0 +1,10 @@
+Project Idea:
+To eliminate malpractices and corruption in medical philantrophy via techology.
+
+Key Features:
+
+1. India suffers from Black marketing, Double-dealing in Blood/Organ donation and general medical practices. Such situation can be improved via use of Decentralized technology viz. Ethereum Blockchain. We intend to use principles of Decentralized Supply Chain Management over Blood Donation Systems such that every donation is handled in democratized fashion. Each record of donor is validated such that if any kind of scandalous updation can be tracked. 
+
+2. With use of Machine Learning's magic we intend to provide needful recievers, nearest donor locations such that the delay in emergent sitution can be avoided. This communication of biological parameter(blood group,{Will be Extended to organs}) with geologocial cognizance , a crucial element when time is of essence.  i
+
+3. AI-based Chatbot for getting information about the change happening in the body of the user that will inform us about the type of illness the user is suffering with.

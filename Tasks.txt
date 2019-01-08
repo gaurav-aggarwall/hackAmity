@@ -1,0 +1,15 @@
+
+DONOR FORM
+1. Location
+2. Name
+3. Blood type
+4. Contact, phone,
+5. Age
+6. Donor id
+
+RECIEVER FORM
+1. Location
+2. Name
+3. Blood type
+4. Contact, phone,
+5. Age
