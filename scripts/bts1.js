@@ -14,12 +14,23 @@ var classifier;
 
 // A variable to store the total loss
 let totalLoss = 0;
+function renderAnimations(contatinerId, animAsset, isLoop) {
+    return bodymovin.loadAnimation(
+        {
+            container: document.getElementById(contatinerId),
+            path: animAsset,
+            renderer: 'svg',
+            loop: isLoop,
+            autoplay: isLoop,
+        }
+    );
+}
 
-// Create a webcam capture
-// navigator.getUserMedia = (navigator.getUserMedia ||
-//     navigator.webkitGetUserMedia ||
-//     navigator.mozGetUserMedia ||
-//     navigator.msGetUserMedia);
+function init(){
+    renderAnimations('bts-anim','../assets/animations/bts_anim.json',true);
+}
+
+init();
 if (navigator.mediaDevices.getUserMedia) {
     console.log('nothing 1')
     navigator.mediaDevices.getUserMedia({ video: true })
