@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
 
-  <title>Real time Object Detection using YOLO and p5.js</title>
+  <title>Red Ray</title>
+  <link rel="icon" href="../img/logo.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
@@ -13,17 +14,41 @@
   <link rel="stylesheet" href="../node_modules//bootstrap/dist/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,700" rel="stylesheet">
   <link rel="stylesheet" href="../css/app.css">
+  <link rel="stylesheet" href="../css/nav.css">
+  <link rel="stylesheet" href="../css/blind-help.css">
 
 </head>
 <body>
-  <div class="container">
+  
+  <!-- NAVBAR  -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="navbar-collapse collapse w-100 order-0 order-md-0 dual-collapse2">
+      <img  id ='logo' src="../img/logo.png" alt="Logo">
+      <a class="navbar-brand mx-auto" href="main.html">RED RAY</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse w-200 order-3 dual-collapse2">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Account</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="container bh-head">
     <div class="row">
-      <div class="col-sm-6">
-          <h1>Object Detection & Text to Speech System</h1>
+      <div class="col-sm-8 bh-body">
+          <h1 id=head'>Object Detection and</h1> 
+          <h1>Text to Speech System</h1>
           <p id="status">Loading Model...</p>
           <div id="canvs-div"></div>
       </div>
-      <div class="col-sm-6 text-center">
+      <div class="col-sm-4 text-center">
         <div id="visual-id-div"></div>
         <h2>Vigilante to help the visually impaired</h2>
       </div>

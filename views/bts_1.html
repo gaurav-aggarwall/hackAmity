@@ -2,50 +2,52 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Image Classification using Feature Extraction</title>
-
+  <title>Red Ray</title>
+  <link rel="icon" href="../img/logo.png">
   <script src="https://unpkg.com/ml5" type="text/javascript"></script>
-
-  <style>
-    button {
-      margin: 2px;
-      padding: 4px;
-    }
-
-    video {
-      width: 300;
-      height: 300;
-    }
-
-    p {
-      display: inline;
-      font-size: 14px;
-    }
-
-    h6 {
-      margin: 4px;
-      font-weight: lighter;
-      font-size: 14px;
-      margin-bottom: 10px;
-    }
-  </style>
   <script src="../node_modules/bodymovin/build/player/bodymovin.min.js"></script>
   <link rel="stylesheet" href="../node_modules//bootstrap/dist/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,700" rel="stylesheet">
   <link rel="stylesheet" href="../css/app.css">
+  <link rel="stylesheet" href="../css/nav.css">
+  <link rel="stylesheet" href="../css/bts-1.css">
 
 </head>
 
 <body>
+
+  <!-- NAVBAR  -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="navbar-collapse collapse w-100 order-0 order-md-0 dual-collapse2">
+      <img  id ='logo' src="../img/logo.png" alt="Logo">
+        <a class="navbar-brand mx-auto" href="main.html">RED RAY</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="navbar-collapse collapse w-200 order-3 dual-collapse2">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Account</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
   <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
+    <div class="bt-heading">
         <h2>Image Classification using Feature Extraction</h2>
         <h3>(Train a Neural Network to distinguish between your Tumour or Non-Tumor Scans)</h3>
+    </div>
+    
+    <div class="row">
+      <div class="col-sm-6 bt-video">
+        
         <video id="video" width="800" height="800" autoplay></video>
 
         <h6><span id="loading">Loading base model...</span> | <span id="videoStatus">Loading video...</span></h6>
-        <p>
+        <p >
           <button id="catButton">Add Tumour Image</button>
           <p><span id="amountOfCatImages">0 </span> Tumour Images</p>
           <br><button id="dogButton">Non Tumour Image</button>
@@ -56,12 +58,14 @@
         <br />
         <p>
           <button id="predict">Start guessing!</button><br>
-          My guess is: <span id="result">...</span>
+         <p class='mainDiv'> My guess is: <span id="result">...</span></p>
         </p>
       </div>
       <div class="col-sm-6">
-        <div id="bts-anim" style="height: 70%;"></div>
-        <h3 class="text-center">I am Tumour, Beware of me...</h3>
+          <video id='film' controls>
+              <source src="../video/brain-tumor.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
       </div>
     </div>
   </div>

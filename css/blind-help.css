@@ -1,0 +1,13 @@
+.bh-head{
+    margin-top:20px;
+}
+
+.bh-body{
+    width: 100%;
+    
+}
+
+.bh-body h1, .bh-body p{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
