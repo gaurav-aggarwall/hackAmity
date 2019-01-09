@@ -1,0 +1,35 @@
+#paragraph-area{
+    padding-top: 30px;
+}
+#paragraph-area button{
+    display: inline-block;
+    background-color: darkslategray;
+    width: 8rem;
+    color: white;
+    padding: 5px;
+}
+#paragraph-area button:hover{
+    cursor:pointer;
+}
+#paragraph-area p{
+    font-weight: bold;
+    font-size: 130%;
+}
+
+/* Map */
+#map-area{
+    width:90%;
+    margin:auto;
+    padding-top:25px;
+    padding-bottom: 40px;
+}
+#map-area h1{
+    margin-left:0px;
+}
+#map-area .row:last-child{
+    padding-top:20px;
+}
+#map{
+    height: 400px;
+    margin-right: 40px;
+}
