@@ -9,11 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tensorflow/tfjs": "^0.14.1",
-    "bodymovin": "^4.13.0",
-    "bootstrap": "^4.2.1"
+    "@tensorflow/tfjs": "*",
+    "bodymovin": "*",
+    "bootstrap": "^4.3.1"
   },
   "devDependencies": {
-    "firebase": "^5.7.2"
+    "firebase": "^5.8.4"
   }
 }

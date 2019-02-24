@@ -22,10 +22,10 @@ function init(){
 init();
 
 function setup() {
-  var canvas=createCanvas(320, 240);
+  var canvas=createCanvas(500, 450);
   canvas.parent('canvs-div');
   video = createCapture(VIDEO);
-  video.size(320, 240);
+  video.size(500, 450);
 
   // Create a YOLO method
   yolo = ml5.YOLO(video, startDetecting);
